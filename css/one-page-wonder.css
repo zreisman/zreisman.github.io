@@ -13,7 +13,8 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://res.cloudinary.com/dvd7awvbl/image/upload/qtj445argqkyy8swwta3.png') no-repeat center center scroll;
+    /*background: url('http://res.cloudinary.com/dvd7awvbl/image/upload/qtj445argqkyy8swwta3.png') no-repeat center center scroll;*/
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -27,7 +28,7 @@ body {
 .headline h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 70px;
-    color: #FFF;
+    color: "black";
     /*background: #fff;
     background: rgba(255,255,255,0.9);*/
 }
@@ -35,7 +36,7 @@ body {
 .headline h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
-    color: #fff;
+    color: "black";
     /*background: rgba(255,255,255,0.9);*/
 }
 

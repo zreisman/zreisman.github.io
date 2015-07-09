@@ -133,6 +133,20 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script>
+  $(document).ready(function(){
+    var url = 'http://res.cloudinary.com/dvd7awvbl/image/upload/qtj445argqkyy8swwta3.png';
+    var img = new Image();
+    img.onload = function(){
+      $('.header-image').css({'background': 'url('+url+') no-repeat center center scroll', 'background-size': 'cover'});
+      $('.header-image').hide().fadeIn('slow');
+      $('.headline h1').css({'color': 'white'});
+      $('.headline h2').css({'color': 'white'});
+    }
+    img.src = url;
+  });
+</script>
+
 </body>
 
 </html>
