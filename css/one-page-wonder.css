@@ -3,6 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url('http://fonts.googleapis.com/css?family=Press+Start+2P');
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -12,7 +13,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url('http://res.cloudinary.com/dvd7awvbl/image/upload/qtj445argqkyy8swwta3.png') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -24,15 +25,18 @@ body {
 }
 
 .headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70px;
+    color: #FFF;
+    /*background: #fff;
+    background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #fff;
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 .featurette-divider {
